@@ -2,11 +2,6 @@
 #include "Date.h"
 namespace sdds {
 
-
-
-
-
-
 	AidMan::AidMan(const char* newFilename) : filename(nullptr), mainMenu("List Items\tAdd Item\tRemove Item\tUpdate Quantity\tSort\tShip Items\tNew/Open Aid Database"){
 		filename = nullptr;
 		if (newFilename != nullptr) {

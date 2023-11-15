@@ -95,7 +95,7 @@ namespace sdds {
 	std::ostream& Date::write(std::ostream& ostr){
 		if (Formatted == true) {
 			//  YYYY/MM/DD
-			ostr << Year << '/' << std::setw(2) << std::setfill('0') << Month << '/' << std::setw(2) << std::setfill('0') << Day;
+			ostr << "Date: " << Year << '/' << std::setw(2) << std::setfill('0') << Month << '/' << std::setw(2) << std::setfill('0') << Day;
 		}else{
 			ostr << (Year % 100) << std::setw(2) << std::setfill('0') << Month << std::setw(2) << std::setfill('0') << Day;
 		}

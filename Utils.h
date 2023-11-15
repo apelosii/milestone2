@@ -5,7 +5,7 @@ namespace sdds {
     // Testing date values for application testing and debugging
     // these values must not change at submission time.
     const int sdds_testYear = 2023;
-    const int sdds_testMon = 10;
+    const int sdds_testMon = 12;
     const int sdds_testDay = 9;
     class Utils {
         bool m_testMode = false;

@@ -1,2 +1,10 @@
 ﻿  AidMan.cpp
-  Milestone2.vcxproj -> E:\School\OOP244\Milestones\Milestone2\x64\Debug\Milestone2.exe
+  Date.cpp
+  main.cpp
+  Menu.cpp
+  Status.cpp
+  Utils.cpp
+C:\School\OOP\milestones\milestone2\Utils.cpp(5,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\School\OOP\milestones\milestone2\Utils.cpp(5,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  Generating Code...
+  Milestone2.vcxproj -> C:\School\OOP\milestones\milestone2\x64\Debug\Milestone2.exe
